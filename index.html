@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradutor Inovador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="caixa-maior">
+
+        <textarea class="imput-text" placeholder="Digite o texto que deseja traduzir"></textarea>
+        <div class="controles">
+            <select class="idiomas" aria-label="Idioma de destino">
+                <option value="en"> ingles</option>
+                <option value="es"> espanhol</option>
+                <option value="fr"> frances</option>
+                <option value="de"> alemao</option>
+                <option value="it"> italiano</option>
+                <option value="pt-br"> portugues</option>
+                <option value="ja"> japones</option>
+            </select>
+
+            <button onclick="traduzir()">
+                <img src="/img/traduzir.svg">
+            </button>
+            <button onclick="ouvirvoz()">
+                <img src="/img/microfone.svg" alt="Microfone">
+            </button>
+        </div>
+        <div class="resultado">
+            <h3 class="titulo-tradução">Tradução</h3>
+            <p class="texto-traduzido">A Tradução aparecerá aqui...</p>
+        </div>
+    </div>
+</body>
+<script src="scripts.js">
+
+</script>
+
+</html>
